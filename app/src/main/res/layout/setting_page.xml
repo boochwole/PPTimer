@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="名称："
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/dttxtTargetName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请填写倒计时事件名称"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="日期："
+            android:textSize="10pt" />
+
+        <DatePicker
+            android:id="@+id/dpTargetDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"/>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_main">
+
+
+    <TextView
+        android:id="@+id/txtvlJu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtVl_ju"
+        android:textColor="#f40252"
+        android:textSize="40sp"
+        android:layout_alignTop="@+id/btnTargetName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginLeft="10dp"
+        android:textIsSelectable="false" />
+    <Button
+        android:id="@+id/btnTargetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVl_target_name"
+        android:textColor="#f40252"
+        android:textSize="40sp"
+        android:layout_above="@+id/txtvlDateNum"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@id/txtvlJu"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:id="@+id/txtvlHaiyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVl_haiyou"
+        android:textColor="#f40252"
+        android:textSize="40sp"
+        android:layout_alignTop="@id/btnTargetName"
+        android:layout_alignParentEnd="false"
+        android:layout_toEndOf="@id/btnTargetName" />
+    <TextView
+        android:id="@+id/txtvlDateNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVl_date_number"
+        android:textColor="#f40252"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400dp"
+        />
+    <TextView
+        android:id="@+id/txttvlTian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVl_tian"
+        android:textColor="#f40252"
+        android:textSize="40sp"
+        android:layout_toEndOf="@id/txtvlDateNum"
+        android:layout_alignTop="@id/txtvlDateNum"/>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPTimer</string>
+
+    <string name="txtVl_ju">距</string>
+    <string name="textVl_haiyou">还有：</string>
+    <string name="textVl_tian">天</string>
+    <string name="textVl_target_name">高考</string>
+    <string name="textVl_date_number">521</string>
+    <string name="settingPage_target_date">2015-10-17</string>
+    <string name="action_settings">Settings</string>
+</resources>

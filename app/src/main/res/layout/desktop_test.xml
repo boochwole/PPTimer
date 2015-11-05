@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    >
+
+    <TextView
+        android:id="@+id/txtvlJu_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtVl_ju"
+        android:textColor="#ffff00"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/txtvlTargetName_dt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginLeft="10dp"
+        android:textIsSelectable="false" />
+    <TextView
+        android:id="@+id/txtvlTargetName_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffff00"
+        android:textSize="30sp"
+        android:layout_alignBottom="@+id/txtvlDateNum_dt"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@id/txtvlJu_dt"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/transparent" />
+    <TextView
+        android:id="@+id/txtvlHaiyou_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVl_haiyou"
+        android:textColor="#ffff00"
+        android:textSize="30sp"
+        android:layout_alignTop="@id/txtvlTargetName_dt"
+        android:layout_alignParentEnd="false"
+        android:layout_toEndOf="@id/txtvlTargetName_dt" />
+    <TextView
+        android:id="@+id/txtvlDateNum_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffff00"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:id="@+id/txttvlTian_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textVl_tian"
+        android:textColor="#ffff00"
+        android:textSize="30sp"
+        android:layout_toEndOf="@id/txtvlDateNum_dt"
+        android:layout_alignTop="@id/txtvlDateNum_dt"/>
+</RelativeLayout>
